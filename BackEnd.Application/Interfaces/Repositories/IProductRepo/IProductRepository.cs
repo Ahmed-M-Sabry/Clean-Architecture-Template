@@ -1,0 +1,14 @@
+﻿using BackEnd.Application.Abstractions.Persistence;
+using BackEnd.Domain.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BackEnd.Application.Interfaces.Repositories.ProductRepo
+{
+    public interface IProductRepository : IGenericRepository<Product, int>
+    {
+    }
+}
